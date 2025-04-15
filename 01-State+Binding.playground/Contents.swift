@@ -5,6 +5,7 @@ import PlaygroundSupport
 
 struct ContentView: View {
   /// @State: Source of truth - Usado em atributos que vão alterar valores na view(isOn)…
+  /// Sempre que o valor do @State é alterado a view é recriada...
   @State private var isOn: Bool = false /// Estado local da View
   
   var body: some View {
